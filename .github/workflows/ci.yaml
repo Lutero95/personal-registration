@@ -28,7 +28,7 @@ jobs:
         working-directory: .
         run: |
           go mod tidy
-          # go test ./... -v
+          go test ./... -v
 
       - name: Generate Tag
         id: generate_tag
