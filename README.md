@@ -11,7 +11,7 @@ This project is a multicontainer Go-based application for personal registration,
 
 3. **API Routes**:
 
-   Use Postman, Insomnia, or another similar tool to access the following API endpoints:
+   Use Postman, Insomnia, or another similar tool to access the following API routes:
 
    - **GET** - Retrieve a person by ID:
      ```http
