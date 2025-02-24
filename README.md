@@ -28,9 +28,9 @@ This project is a multicontainer Go-based application for personal registration,
      PUT http://64.227.98.132:8000/api/person/{id_registro}
      ```
 
-   - **GET** - Retrieve a person by ID (confirmation):
+   - **GET** - delete person by ID:
      ```http
-     GET http://64.227.98.132:8000/api/person/{id_registro}
+     GET http://64.227.98.132:8000/api/personDelete/{id_registro}
      ```
 
    For the POST and PUT routes, use the following JSON format:
