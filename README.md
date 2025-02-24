@@ -9,7 +9,7 @@ This project is a multicontainer Go-based application for personal registration,
 - `main.go`: Entry point for the Go application.
 - `src/`: Source code for the application, including database connection and logic.
 
-3. **API Endpoints**:
+3. **API Routes**:
 
    Use Postman, Insomnia, or another similar tool to access the following API endpoints:
 
