@@ -15,7 +15,7 @@ This project is a multicontainer Go-based application for personal registration,
 
    - **GET** - Retrieve a person by ID:
      ```http
-     GET http://64.227.98.132:8000/api/person/{id_registro}
+     GET http://64.227.98.132:8000/api/person/{ID}
      ```
 
    - **POST** - Create a new person:
@@ -25,12 +25,12 @@ This project is a multicontainer Go-based application for personal registration,
 
    - **PUT** - Update an existing person by ID:
      ```http
-     PUT http://64.227.98.132:8000/api/person/{id_registro}
+     PUT http://64.227.98.132:8000/api/person/{ID}
      ```
 
    - **GET** - delete person by ID:
      ```http
-     GET http://64.227.98.132:8000/api/personDelete/{id_registro}
+     GET http://64.227.98.132:8000/api/personDelete/{ID}
      ```
 
    For the POST and PUT routes, use the following JSON format:
